@@ -1,0 +1,18 @@
+research_task:
+  description: >
+    You are given invoice data containing invoice_id and amount.
+
+    Your job:
+    - If amount > 10000 → call MCP tool to process invoice
+    - Else → do not call tool and respond that invoice is skipped
+
+    Input:
+    {invoice}
+
+  expected_output: >
+    A clear response mentioning:
+    - Invoice ID
+    - Whether UiPath was triggered
+    - Final result
+
+  agent: researcher
